@@ -1,6 +1,6 @@
 # Test Capacitor Project
 
-Example capacitor 6 + Ionic 6 project using the `capacitor-meili` plugin
+Example capacitor 5 + Ionic 6 project using the `capacitor-meili` plugin
 
 ## Getting started
 
@@ -41,8 +41,8 @@ In Xcode, navigate to the Project Navigator. Select the project root to open the
 7. Manage Signing:
 
 In the same project editor, under the Signing & Capabilities section:
- • Ensure Automatically manage signing is enabled.
- • Select a Development Team. Xcode will attempt to automatically prepare provisioning and signing for the selected team.
+- Ensure Automatically manage signing is enabled.
+- Select a Development Team. Xcode will attempt to automatically prepare provisioning and signing for the selected team.
 
 8. Select Target Device or Simulator:
 
