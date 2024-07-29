@@ -8,10 +8,12 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (5.0.9):
     - Capacitor
-  - CapacitorMeili (0.0.1):
+  - CapacitorMeili (0.0.3):
     - Capacitor
+    - MeiliSDK
   - CapacitorStatusBar (5.0.8):
     - Capacitor
+  - MeiliSDK (1.0.47)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
@@ -21,6 +23,10 @@ DEPENDENCIES:
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
   - CapacitorMeili (from `../../node_modules/capacitor-meili`)
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+
+SPEC REPOS:
+  https://github.com/meili-travel-tech/meili-ios-pods.git:
+    - MeiliSDK
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -44,9 +50,10 @@ SPEC CHECKSUMS:
   CapacitorCordova: d906edead798c9bb1b07274f15615878d27507d5
   CapacitorHaptics: f59c880aa8fad7f47bb54b48d6f2d6b26279602a
   CapacitorKeyboard: f2e78b60a5cb981b4ea9e511e80693ca355169bb
-  CapacitorMeili: 87463fc4f816892f2549f8956253e73ad4dec206
+  CapacitorMeili: 813b717650e6f6ab02872a8193d427ed804aa06b
   CapacitorStatusBar: 51af549cfcf35aac3ab072b062967ae5971ee485
+  MeiliSDK: a9cd99a28e4471fc372a0835525e8af9ca43e692
 
-PODFILE CHECKSUM: 6c5c860103a96b13f7c57b413178669b6adc7db8
+PODFILE CHECKSUM: 30604980349df92243b428ddf8e5eb3265d3f01b
 
 COCOAPODS: 1.15.2

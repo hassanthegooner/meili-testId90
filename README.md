@@ -68,6 +68,15 @@ ionic capacitor open ios
 - If you encounter any issues with signing, make sure your Apple Developer account is properly configured and connected.
 - You may need to clean the build folder in Xcode if you encounter build errors (Product > Clean Build Folder).
 
+## Podfile
+
+Ensure that the following dependencies are in the iOS [Podfile](ios/App/Podfile)
+
+```ruby
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/meili-travel-tech/meili-ios-pods'
+```
+
 ## Project Dependencies
 
 Below are the list of dependencies. You can check your package versions by running `npm ls --depth=0` from the root of the project
