@@ -25,7 +25,7 @@ ionic capacitor update
 4. Synchronize the Project:
 
 ```bash
-npx cap sync ios
+ioniic cap sync ios
 ```
 
 5. Open the iOS Project in Xcode:
