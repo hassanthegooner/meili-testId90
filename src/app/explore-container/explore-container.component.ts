@@ -16,7 +16,11 @@ export class ExploreContainerComponent {
       Meili.openModal({
         currentFlow: MeiliFlow.Direct,
         ptid: "100.9",
-        env: MeiliEnvironment.Dev
+        env: MeiliEnvironment.Dev,
+        availParams: {
+          // overriding currency
+          currencyCode: "GBP"
+        }
       })
     } catch (error) {
       

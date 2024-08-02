@@ -8,12 +8,12 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (5.0.9):
     - Capacitor
-  - CapacitorMeili (0.0.4):
+  - CapacitorMeili (0.0.5):
     - Capacitor
     - MeiliSDK
   - CapacitorStatusBar (5.0.8):
     - Capacitor
-  - MeiliSDK (1.0.47)
+  - MeiliSDK (1.0.50)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
@@ -50,9 +50,9 @@ SPEC CHECKSUMS:
   CapacitorCordova: d906edead798c9bb1b07274f15615878d27507d5
   CapacitorHaptics: f59c880aa8fad7f47bb54b48d6f2d6b26279602a
   CapacitorKeyboard: f2e78b60a5cb981b4ea9e511e80693ca355169bb
-  CapacitorMeili: 67ec827dff6635cf3f7d311234ce81b4c81bc309
+  CapacitorMeili: f6ee2cfdc588e1b2b1ef34ab6e3bdd5d3255169a
   CapacitorStatusBar: 51af549cfcf35aac3ab072b062967ae5971ee485
-  MeiliSDK: a9cd99a28e4471fc372a0835525e8af9ca43e692
+  MeiliSDK: caa5a105247833d7f15daee4409d7cac72435287
 
 PODFILE CHECKSUM: 30604980349df92243b428ddf8e5eb3265d3f01b
 
