@@ -20,7 +20,10 @@ export class ExploreContainerComponent {
         availParams: {
           // overriding currency
           currencyCode: "GBP"
-        }
+        },
+        toolbarCloseIconColor: "#7953FF",
+        toolbarTitle: "ID90 Car Rental",
+        toolbarTitleColor: "#7953FF"
       })
     } catch (error) {
       

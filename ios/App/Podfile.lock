@@ -8,7 +8,7 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (5.0.9):
     - Capacitor
-  - CapacitorMeili (0.0.5):
+  - CapacitorMeili (0.0.6):
     - Capacitor
     - MeiliSDK
   - CapacitorStatusBar (5.0.8):
@@ -50,7 +50,7 @@ SPEC CHECKSUMS:
   CapacitorCordova: d906edead798c9bb1b07274f15615878d27507d5
   CapacitorHaptics: f59c880aa8fad7f47bb54b48d6f2d6b26279602a
   CapacitorKeyboard: f2e78b60a5cb981b4ea9e511e80693ca355169bb
-  CapacitorMeili: f6ee2cfdc588e1b2b1ef34ab6e3bdd5d3255169a
+  CapacitorMeili: 9addeb6916bff527e9a81b5a1f1c6becdeaf74ef
   CapacitorStatusBar: 51af549cfcf35aac3ab072b062967ae5971ee485
   MeiliSDK: caa5a105247833d7f15daee4409d7cac72435287
 
