@@ -131,7 +131,7 @@ Below are the list of dependencies. You can check your package versions by runni
 ├── @types/jasmine@5.1.4
 ├── @typescript-eslint/eslint-plugin@5.43.0
 ├── @typescript-eslint/parser@5.43.0
-├── capacitor-meili@0.0.6
+├── capacitor-meili@0.0.8
 ├── eslint-plugin-import@2.29.1
 ├── eslint-plugin-jsdoc@48.8.3
 ├── eslint-plugin-prefer-arrow@1.2.2
