@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace "travel.meili.ionicstarter"
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "travel.meili.ionicstarter"
         minSdkVersion rootProject.ext.minSdkVersion

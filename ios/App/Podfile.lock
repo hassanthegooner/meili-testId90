@@ -1,17 +1,17 @@
 PODS:
-  - Capacitor (5.7.7):
+  - Capacitor (6.1.2):
     - CapacitorCordova
-  - CapacitorApp (5.0.8):
+  - CapacitorApp (6.0.1):
     - Capacitor
-  - CapacitorCordova (5.7.7)
-  - CapacitorHaptics (5.0.8):
+  - CapacitorCordova (6.1.2)
+  - CapacitorHaptics (6.0.1):
     - Capacitor
-  - CapacitorKeyboard (5.0.9):
+  - CapacitorKeyboard (6.0.2):
     - Capacitor
-  - CapacitorMeili (0.0.8):
+  - CapacitorMeili (6.0.1):
     - Capacitor
     - MeiliSDK
-  - CapacitorStatusBar (5.0.8):
+  - CapacitorStatusBar (6.0.1):
     - Capacitor
   - MeiliSDK (1.0.52)
 
@@ -45,13 +45,13 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/status-bar"
 
 SPEC CHECKSUMS:
-  Capacitor: 0039e9b67cfde2d5e9111b3ddca8c0097f4cf2f4
-  CapacitorApp: 102e553c3b1fdc255969c39aa19b529675690ef4
-  CapacitorCordova: d906edead798c9bb1b07274f15615878d27507d5
-  CapacitorHaptics: f59c880aa8fad7f47bb54b48d6f2d6b26279602a
-  CapacitorKeyboard: f2e78b60a5cb981b4ea9e511e80693ca355169bb
-  CapacitorMeili: d3e010e00d250008d021b14470016685bd20c7f6
-  CapacitorStatusBar: 51af549cfcf35aac3ab072b062967ae5971ee485
+  Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
+  CapacitorApp: 0bc633b4eae40a1f32cd2834788fad3bc42da6a1
+  CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
+  CapacitorHaptics: fe689ade56ef20ec9b041a753c6da70c5d8ec9a9
+  CapacitorKeyboard: 2700f9b18687be021e28b5a09b59eb151a46d5e0
+  CapacitorMeili: cb5f1616c841a467fd7451a808df669f8091efeb
+  CapacitorStatusBar: b81d4fb5d4e0064c712018071b3ab4b810b39a63
   MeiliSDK: 55a97ffb1024922f27b9c2f77ac02064c8396b18
 
 PODFILE CHECKSUM: 30604980349df92243b428ddf8e5eb3265d3f01b
