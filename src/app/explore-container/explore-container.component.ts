@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy } from '@angular/core';
+import { Capacitor, PluginListenerHandle } from '@capacitor/core';
 import { Meili } from 'capacitor-meili';
 import { MeiliEnvironment, MeiliFlow } from 'capacitor-meili/dist/esm/types';
 
@@ -7,11 +8,53 @@ import { MeiliEnvironment, MeiliFlow } from 'capacitor-meili/dist/esm/types';
   templateUrl: './explore-container.component.html',
   styleUrls: ['./explore-container.component.scss'],
 })
-export class ExploreContainerComponent {
+export class ExploreContainerComponent implements OnInit, OnDestroy {
   @Input() name?: string;
+
+  private iosAllEventsListener: PluginListenerHandle | null = null;
+  private androidEventsListener: PluginListenerHandle | null = null;
 
   env = MeiliEnvironment.Dev;
   ptid = '100.9';
+
+  async ngOnInit() {
+    // Call setupListeners when the component initializes
+    this.setupListeners();
+  }
+
+  async ngOnDestroy() {
+    // Remove the event listeners when the component is destroyed
+    if (this.iosAllEventsListener) {
+      this.iosAllEventsListener.remove();
+      this.iosAllEventsListener = null;
+    }
+    if (this.androidEventsListener) {
+      this.androidEventsListener.remove();
+      this.androidEventsListener = null;
+    }
+  }
+
+  async setupListeners() {
+    if (Capacitor.getPlatform() === 'ios') {
+      this.iosAllEventsListener = await Meili.addListener(
+        'all_events',
+        (event) => {
+          console.log(
+            'ExploreContainer all_events',
+            event.eventName,
+            event.data
+          );
+        }
+      );
+    } else if (Capacitor.getPlatform() === 'android') {
+      this.androidEventsListener = await Meili.addListener(
+        'android_web_events',
+        (data) => {
+          console.log('ExploreContainer android_web_events', data);
+        }
+      );
+    }
+  }
 
   async openMeiliDirect() {
     try {
@@ -63,7 +106,7 @@ export class ExploreContainerComponent {
         additionalParams: {
           prefillOnly: true,
           lastName: 'Bloggs',
-          confirmationId: 'TESTID123'
+          confirmationId: 'TESTID123',
         },
         toolbarCloseIconColor: '#7953FF',
         toolbarTitle: 'ID90 Car Rental',
