@@ -11,7 +11,7 @@ export class ExploreContainerComponent {
   @Input() name?: string;
 
   env = MeiliEnvironment.Dev;
-  ptid = '100.9';
+  ptid = '141.9';
 
   async openMeiliDirect() {
     try {
